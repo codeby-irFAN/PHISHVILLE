@@ -167,7 +167,7 @@ function IllustratedFooter({ openNotice }) {
         <a className="brand footer-brand" href="#home" aria-label="PhishVille home">
           <BrandMark />
           <span className="brand-copy">
-            <span className="brand-name">Phish<span>Ville</span><i>!</i></span>
+            <span className="brand-name">Phish<span className="brand-ville">Ville</span><i>!</i></span>
             <span className="brand-tagline">SPOT SCAMS · STAY SAFE</span>
           </span>
         </a>
@@ -211,7 +211,7 @@ export default function App() {
             <a className="brand" href="#home" aria-label="PhishVille home" onClick={() => setMenuOpen(false)}>
               <BrandMark />
               <span className="brand-copy">
-                <span className="brand-name">Phish<span>Ville</span><i>!</i></span>
+                <span className="brand-name">Phish<span className="brand-ville">Ville</span><i>!</i></span>
                 <span className="brand-tagline">SPOT SCAMS · STAY SAFE</span>
               </span>
             </a>
@@ -253,7 +253,7 @@ export default function App() {
 
           <div className="hero-content">
             <div className="eyebrow"><span className="eyebrow-star">✦</span> THE CITY IS YOURS TO EXPLORE <span className="eyebrow-star">✦</span></div>
-            <h1 id="hero-title">Welcome to<br /><span>PhishVille</span><b className="title-period">!</b></h1>
+            <h1 id="hero-title">Welcome to<br /><span className="hero-phishville"><span>Phish</span><span className="hero-ville">Ville</span></span><b className="title-period">!</b></h1>
             <p className="hero-description">
               A colourful city. Curious characters. Hidden clues everywhere. Explore the neighbourhood and discover how to outsmart the tricks of the digital world.
             </p>
