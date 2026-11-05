@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Game from "./game/Game";
 
 function BrandMark() {
   return (
@@ -151,7 +152,7 @@ function AnnouncementRibbon() {
   );
 }
 
-function IllustratedFooter({ openNotice }) {
+function IllustratedFooter({ openNotice, openGame }) {
   return (
     <footer className="site-footer">
       <div className="footer-skyline" aria-hidden="true">
@@ -174,7 +175,7 @@ function IllustratedFooter({ openNotice }) {
         <p className="footer-description">A playful place to grow your cyber-smarts and learn to spot the tricks hiding online.</p>
         <nav className="footer-links" aria-label="Footer navigation">
           <a href="#home">Home</a>
-          <button type="button" onClick={() => openNotice('story')}>Story Mode</button>
+          <button type="button" onClick={openGame}>Story Mode</button>
           <button type="button" onClick={() => openNotice('study')}>Study Mode <span>IN DEV</span></button>
           <button type="button" onClick={() => openNotice('teacher')}>Teacher Portal</button>
         </nav>
@@ -191,11 +192,50 @@ function IllustratedFooter({ openNotice }) {
 export default function App() {
   const [notice, setNotice] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [gameOpen, setGameOpen] = useState(false);
 
   const openNotice = (type) => {
     setNotice(type);
     setMenuOpen(false);
   };
+
+  const openGame = () => {
+    setNotice(null);
+    setMenuOpen(false);
+    setGameOpen(true);
+  };
+
+  if (gameOpen) {
+    return (
+      <div
+        style={{
+          width: '100%',
+          height: '100vh',
+          background: '#a8c9a0',
+          display: 'flex',
+          flexDirection: 'column'
+        }}
+      >
+        <button
+          onClick={() => setGameOpen(false)}
+          style={{
+            padding: '12px 22px',
+            border: 'none',
+            background: '#18352d',
+            color: 'white',
+            fontSize: '15px',
+            cursor: 'pointer',
+            alignSelf: 'flex-start'
+          }}
+        >
+          ← Back to PhishVille
+        </button>
+        <div style={{ flex: 1, minHeight: 0 }}>
+          <Game />
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="site-shell" id="home">
@@ -230,7 +270,7 @@ export default function App() {
               <a className="nav-link nav-link-active" href="#home" onClick={() => setMenuOpen(false)}>
                 <span className="nav-icon" aria-hidden="true">⌂</span> Home
               </a>
-              <button className="nav-link" type="button" onClick={() => openNotice('story')}>
+              <button className="nav-link" type="button" onClick={openGame}>
                 <span className="nav-icon nav-play" aria-hidden="true">▶</span> Story Mode
               </button>
               <button className="nav-link nav-study" type="button" onClick={() => openNotice('study')}>
@@ -241,12 +281,12 @@ export default function App() {
               <button className="nav-link" type="button" onClick={() => openNotice('teacher')}>
                 <span className="nav-icon" aria-hidden="true">▤</span> Teacher Portal
               </button>
-              <button className="mobile-adventure" type="button" onClick={() => openNotice('story')}>
+              <button className="mobile-adventure" type="button" onClick={openGame}>
                 Enter PhishVille <ArrowIcon />
               </button>
             </nav>
 
-            <button className="header-cta" type="button" onClick={() => openNotice('story')}>
+            <button className="header-cta" type="button" onClick={openGame}>
               Enter PhishVille <ArrowIcon />
             </button>
           </header>
@@ -258,7 +298,7 @@ export default function App() {
               A colourful city. Curious characters. Hidden clues everywhere. Explore the neighbourhood and discover how to outsmart the tricks of the digital world.
             </p>
             <div className="hero-actions">
-              <button className="primary-cta" type="button" onClick={() => openNotice('story')}>
+              <button className="primary-cta" type="button" onClick={openGame}>
                 Start Story Mode <ArrowIcon />
               </button>
               <div className="hero-note">
@@ -283,7 +323,7 @@ export default function App() {
       </main>
 
       <AnnouncementRibbon />
-      <IllustratedFooter openNotice={openNotice} />
+      <IllustratedFooter openNotice={openNotice} openGame={openGame} />
       <NoticeDialog notice={notice} onClose={() => setNotice(null)} />
     </div>
   );
