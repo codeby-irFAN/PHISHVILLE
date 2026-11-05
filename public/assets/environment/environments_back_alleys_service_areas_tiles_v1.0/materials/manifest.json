@@ -1,0 +1,105 @@
+{
+ "assets": [
+  {
+   "name": "alley_asphalt",
+   "file": "materials/alley_asphalt.png",
+   "source_rect": [
+    4,
+    4,
+    414,
+    414
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "cool_concrete",
+   "file": "materials/cool_concrete.png",
+   "source_rect": [
+    422,
+    4,
+    832,
+    414
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "industrial_paving",
+   "file": "materials/industrial_paving.png",
+   "source_rect": [
+    840,
+    4,
+    1250,
+    414
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "aged_brick",
+   "file": "materials/aged_brick.png",
+   "source_rect": [
+    4,
+    422,
+    414,
+    832
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "rendered_plaster",
+   "file": "materials/rendered_plaster.png",
+   "source_rect": [
+    422,
+    422,
+    832,
+    832
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "walnut",
+   "file": "materials/walnut.png",
+   "source_rect": [
+    840,
+    422,
+    1250,
+    832
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "corrugated_steel",
+   "file": "materials/corrugated_steel.png",
+   "source_rect": [
+    4,
+    840,
+    414,
+    1250
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "burgundy_steel",
+   "file": "materials/burgundy_steel.png",
+   "source_rect": [
+    422,
+    840,
+    832,
+    1250
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "galvanized_metal",
+   "file": "materials/galvanized_metal.png",
+   "source_rect": [
+    840,
+    840,
+    1250,
+    1250
+   ],
+   "opposite_edges_equal": true
+  }
+ ],
+ "border_processing": "Nearest-neighbour crop/resize, followed by 8px symmetric border balancing. Original atlas retained.",
+ "processing": "Nearest-neighbour resize of source/material_atlas.png regions to 256 px, with matched opposite edges so each swatch repeats seamlessly."
+}

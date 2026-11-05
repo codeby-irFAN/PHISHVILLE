@@ -1,0 +1,1782 @@
+{
+ "pack": "Courtyards and Parks (Town Environments) — PtDesigns",
+ "version": "1.0",
+ "count": 48,
+ "asset_type": "static 2D isometric environment tiles and overlays",
+ "grid": [
+  256,
+  128
+ ],
+ "canvas": [
+  384,
+  512
+ ],
+ "anchor": [
+  192,
+  352
+ ],
+ "world_scale": {
+  "px_per_floor_tile": 256,
+  "tile_px": [
+   256,
+   128
+  ],
+  "metres_per_tile_edge": 1.5,
+  "px_per_metre_height": 100,
+  "note": "Same shared world scale as the PtDesigns Household props and Cozy Shops Foundations tiles drawn at 2x."
+ },
+ "atlas_size": [
+  3072,
+  3072
+ ],
+ "assets": [
+  {
+   "id": 1,
+   "name": "courtyard_limestone",
+   "file": "tiles/courtyard_limestone.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "limestone; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "f45987a926bd85407eb8c9b18e74de29fa04ce8d64e5f890b810103b6a93f1ea",
+   "atlas_rect": [
+    0,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 2,
+   "name": "courtyard_limestone_worn",
+   "file": "tiles/courtyard_limestone_worn.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "limestone; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "bf87e7d5f9cae551049241e174c35024fd68dfbd92c03f66cee8c1d0cb5bb51f",
+   "atlas_rect": [
+    384,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 3,
+   "name": "park_gravel",
+   "file": "tiles/park_gravel.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "gravel; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "66150074dd0b31b8f16f662a97dd06edd2e3ff1b280be65475ee0cbc79f131c3",
+   "atlas_rect": [
+    768,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 4,
+   "name": "park_gravel_worn",
+   "file": "tiles/park_gravel_worn.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "gravel; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "386ce21faf138c3e5bd94537a76137d2c1bf889fcc2a729a7908ba54b58eea03",
+   "atlas_rect": [
+    1152,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 5,
+   "name": "park_lawn",
+   "file": "tiles/park_lawn.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "lawn; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "184dfa4de9035ad51ef484ed5942ec752418004ff885c133b23136cec14138cd",
+   "atlas_rect": [
+    1536,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 6,
+   "name": "clay_paving",
+   "file": "tiles/clay_paving.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "clay; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "127a5afc74a46c6267a2ec7a236e2e3dbbf1772c007e6244826bb86b37e2fc46",
+   "atlas_rect": [
+    1920,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 7,
+   "name": "lawn_path_u",
+   "file": "tiles/lawn_path_u.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "lawn; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "5695662ffe3cf9363d739ec2f8be140dd06b7b2231af8fe91d1c0ba601b317ae",
+   "atlas_rect": [
+    2304,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 8,
+   "name": "lawn_path_v",
+   "file": "tiles/lawn_path_v.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "lawn; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "16160042d69b150c69c66e7658608733dc6e2c3ca72b969b187cdfeb77588c30",
+   "atlas_rect": [
+    2688,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 9,
+   "name": "pond_center",
+   "file": "tiles/pond_center.png",
+   "category": "water",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Static water surface at z=0; use banks around the rectangular pond perimeter.",
+   "sha256": "342ccdb15c232f63c0e16cf8b3f2aa303c43bdda5c0be05c73ff99784b382787",
+   "atlas_rect": [
+    0,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 10,
+   "name": "pond_bank_u0",
+   "file": "tiles/pond_bank_u0.png",
+   "category": "water_bank",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Water with 12px raised stone bank on the named local edge.",
+   "sha256": "d82a001971bf2d2de82373a1abec873a3363a862b56362446b27c6757ef048d6",
+   "atlas_rect": [
+    384,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 11,
+   "name": "pond_bank_u1",
+   "file": "tiles/pond_bank_u1.png",
+   "category": "water_bank",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Water with 12px raised stone bank on the named local edge.",
+   "sha256": "8d3369c7b5047f0db51a8576bc4adbe3ef24e1cbd5432573392eaec4e44a66e6",
+   "atlas_rect": [
+    768,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 12,
+   "name": "pond_bank_v0",
+   "file": "tiles/pond_bank_v0.png",
+   "category": "water_bank",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Water with 12px raised stone bank on the named local edge.",
+   "sha256": "44d513a1dfd5d44176ef3b55128bbaffa9cba401e2820a221105dca66e4617af",
+   "atlas_rect": [
+    1152,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 13,
+   "name": "pond_bank_v1",
+   "file": "tiles/pond_bank_v1.png",
+   "category": "water_bank",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Water with 12px raised stone bank on the named local edge.",
+   "sha256": "8f73f885d48c87afaba3201f7e0e55e861a88f9104089fcbc865236fe2e3e4a1",
+   "atlas_rect": [
+    1536,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 14,
+   "name": "pond_corner_u0_v0",
+   "file": "tiles/pond_corner_u0_v0.png",
+   "category": "water_bank",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Outer rectangular pond corner; both named edges have 12px banks.",
+   "sha256": "1966ddf5b306371196d0d21b60c9fb91d1e6e865461f5fd017b6620150c89049",
+   "atlas_rect": [
+    1920,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 15,
+   "name": "pond_corner_u0_v1",
+   "file": "tiles/pond_corner_u0_v1.png",
+   "category": "water_bank",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Outer rectangular pond corner; both named edges have 12px banks.",
+   "sha256": "0184d9c37ce1f6eec84734c8436d63a4da7369c4d0d9076fb869edb439942fe8",
+   "atlas_rect": [
+    2304,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 16,
+   "name": "pond_corner_u1_v0",
+   "file": "tiles/pond_corner_u1_v0.png",
+   "category": "water_bank",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Outer rectangular pond corner; both named edges have 12px banks.",
+   "sha256": "63c2f38d85637a610e1fee299b99c00a6f21ad68ae042b3bd12ad190f01f0aab",
+   "atlas_rect": [
+    2688,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 17,
+   "name": "pond_corner_u1_v1",
+   "file": "tiles/pond_corner_u1_v1.png",
+   "category": "water_bank",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Outer rectangular pond corner; both named edges have 12px banks.",
+   "sha256": "c5fa308e519fb15366c5405ade12396b2c6b4484731e2f73030dc2d6c555e83a",
+   "atlas_rect": [
+    0,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 18,
+   "name": "cedar_fence_u",
+   "file": "tiles/cedar_fence_u.png",
+   "category": "boundary",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-tile boundary segment on ground z=0.",
+   "sha256": "852768197b8d161276bd9158d444c698edce16d5d130e9fbf62144074ce20d98",
+   "atlas_rect": [
+    384,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.03
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 19,
+   "name": "cedar_fence_v",
+   "file": "tiles/cedar_fence_v.png",
+   "category": "boundary",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-tile boundary segment on ground z=0.",
+   "sha256": "6355690efd6cef47c807dd1af35849fc69568b670cbe8d5c2b7bf6b577e7ed27",
+   "atlas_rect": [
+    768,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.03
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 20,
+   "name": "iron_fence_u",
+   "file": "tiles/iron_fence_u.png",
+   "category": "boundary",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-tile boundary segment on ground z=0.",
+   "sha256": "f7497c2c82787d75c73201a47d3b838be0e743396f484e1394fefd8843bf42f8",
+   "atlas_rect": [
+    1152,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.19
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 21,
+   "name": "iron_fence_v",
+   "file": "tiles/iron_fence_v.png",
+   "category": "boundary",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-tile boundary segment on ground z=0.",
+   "sha256": "99d88115a25d26813c3eebd41b3224f4e76f61a3b46f095605ebaedd91c0cc1a",
+   "atlas_rect": [
+    1536,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.19
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 22,
+   "name": "arched_iron_gate_u",
+   "file": "tiles/arched_iron_gate_u.png",
+   "category": "boundary",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-tile boundary segment on ground z=0.",
+   "sha256": "574b4726356197eaa94f5dd18d9626acc07f008a88f6194aa0daca766f21d31c",
+   "atlas_rect": [
+    1920,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.49
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 23,
+   "name": "arched_iron_gate_v",
+   "file": "tiles/arched_iron_gate_v.png",
+   "category": "boundary",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-tile boundary segment on ground z=0.",
+   "sha256": "017e6d1314e66aa4cd3e04872f38763746121f7030f69ca15cc5cb5739b19cd9",
+   "atlas_rect": [
+    2304,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.49
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 24,
+   "name": "clipped_hedge_u",
+   "file": "tiles/clipped_hedge_u.png",
+   "category": "landscape",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Hedge top z=72; planter stone z=35 with foliage above. Place repeated segments along the named axis.",
+   "sha256": "9ab17a9f86066ecf15215b4b2cae6048790e9d93e19aaa802c488672d2db4f31",
+   "atlas_rect": [
+    2688,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.99
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 25,
+   "name": "clipped_hedge_v",
+   "file": "tiles/clipped_hedge_v.png",
+   "category": "landscape",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Hedge top z=72; planter stone z=35 with foliage above. Place repeated segments along the named axis.",
+   "sha256": "ff7b924a91644161952e0024961accbfc26985ddf96b68a75cad78f2e64ff654",
+   "atlas_rect": [
+    0,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.99
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 26,
+   "name": "clipped_hedge_corner",
+   "file": "tiles/clipped_hedge_corner.png",
+   "category": "landscape",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "L-shaped corner connecting the u and v segments.",
+   "sha256": "76653a21c8137d2a37d4a4d0d9696ea9915fde3436fdd48f42800056ade80944",
+   "atlas_rect": [
+    384,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.99
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 27,
+   "name": "raised_planter_u",
+   "file": "tiles/raised_planter_u.png",
+   "category": "landscape",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Hedge top z=72; planter stone z=35 with foliage above. Place repeated segments along the named axis.",
+   "sha256": "cd40511c0657b4e7ddfd2961a7491a6cfd41b6258d60cac021a7d309147ec551",
+   "atlas_rect": [
+    768,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.83
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 28,
+   "name": "raised_planter_v",
+   "file": "tiles/raised_planter_v.png",
+   "category": "landscape",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Hedge top z=72; planter stone z=35 with foliage above. Place repeated segments along the named axis.",
+   "sha256": "6c6ba29f7c577c233f772d1c00360c60cb392aea0c792c16b8121cf553efaac5",
+   "atlas_rect": [
+    1152,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.83
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 29,
+   "name": "raised_planter_corner",
+   "file": "tiles/raised_planter_corner.png",
+   "category": "landscape",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "L-shaped corner connecting the u and v segments.",
+   "sha256": "36d0b929b0c710dc04fd5b27c6b45c6b98fb93f907a4ca196b8bac7187d5e4b6",
+   "atlas_rect": [
+    1536,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.83
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 30,
+   "name": "courtyard_steps_u",
+   "file": "tiles/courtyard_steps_u.png",
+   "category": "steps",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Steps connect a 12px raised near edge to ground across the named axis.",
+   "sha256": "0e99c5677faa5a4316bcec4a818742444ddf49f98038c90f4d754149f8be38ae",
+   "atlas_rect": [
+    1920,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 31,
+   "name": "courtyard_steps_v",
+   "file": "tiles/courtyard_steps_v.png",
+   "category": "steps",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Steps connect a 12px raised near edge to ground across the named axis.",
+   "sha256": "3f4b369c39ab8dd7ebbf6726d9a36b4cc54441a62b61d802237d498eb26b885a",
+   "atlas_rect": [
+    2304,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 32,
+   "name": "sandstone_retaining_wall_u",
+   "file": "tiles/sandstone_retaining_wall_u.png",
+   "category": "low_wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "70px-high low wall. Raised ground is placed with a matching manual z offset.",
+   "sha256": "4118219f6fbef959d0ef3cebffcd29f1405c05b5a38ce23cb30ef82958f00ca5",
+   "atlas_rect": [
+    2688,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.89
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 33,
+   "name": "sandstone_retaining_wall_v",
+   "file": "tiles/sandstone_retaining_wall_v.png",
+   "category": "low_wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "70px-high low wall. Raised ground is placed with a matching manual z offset.",
+   "sha256": "c176c216be5fc4dbf81ee9c2840a79ebeb470f771b3f970384788cd3b542e0d0",
+   "atlas_rect": [
+    0,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.89
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 34,
+   "name": "stone_boundary_pillar",
+   "file": "tiles/stone_boundary_pillar.png",
+   "category": "post",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "At the common origin. Match boundary or pergola height as appropriate.",
+   "sha256": "f67c81e54c87543ce7d0d2858f1faf1810b73c0ce21734f46a89c217176fc0fe",
+   "atlas_rect": [
+    384,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.17
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 35,
+   "name": "pergola_post",
+   "file": "tiles/pergola_post.png",
+   "category": "post",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "At the common origin. Match boundary or pergola height as appropriate.",
+   "sha256": "6582a1ad85224950981c2267db15a5e966c775ea1cb226c11bee7205817b7c26",
+   "atlas_rect": [
+    768,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.29
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 36,
+   "name": "pergola_beam_u",
+   "file": "tiles/pergola_beam_u.png",
+   "category": "pergola",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Horizontal top beam z=212..225; repeat along its named axis.",
+   "sha256": "cb28d0b685687598eb660f845975d51371fe3fc5f00e94eea2c5b1cc0ecdf801",
+   "atlas_rect": [
+    1152,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.22
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 37,
+   "name": "pergola_beam_v",
+   "file": "tiles/pergola_beam_v.png",
+   "category": "pergola",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Horizontal top beam z=212..225; repeat along its named axis.",
+   "sha256": "ff091514045138621d19782e72d6b0029a2bcb728b30fa4f44edbd0c2a08088d",
+   "atlas_rect": [
+    1536,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.22
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 38,
+   "name": "pergola_lattice_roof",
+   "file": "tiles/pergola_lattice_roof.png",
+   "category": "pergola",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-cell open lattice roof at z=221..232. Pair with pergola posts and beams.",
+   "sha256": "7e6e5a8d10d93eea3ecb33fae33c8318ea674f23a4b363b805841c0d0bcffad4",
+   "atlas_rect": [
+    1920,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.3
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 39,
+   "name": "gazebo_deck",
+   "file": "tiles/gazebo_deck.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "wood; surface z=12px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "4601efa82f7f6b4090421daa62ad6c05d1db9f2e48e23814493aebda48415633",
+   "atlas_rect": [
+    2304,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 40,
+   "name": "gazebo_railing_u",
+   "file": "tiles/gazebo_railing_u.png",
+   "category": "railing",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Cream painted railing, local base z=0. Shift +12px for the raised deck.",
+   "sha256": "4aa684d40178dfdae59952336bf8e39cb74476831e8d6a68f98f4f680668ee7f",
+   "atlas_rect": [
+    2688,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.83
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 41,
+   "name": "gazebo_railing_v",
+   "file": "tiles/gazebo_railing_v.png",
+   "category": "railing",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Cream painted railing, local base z=0. Shift +12px for the raised deck.",
+   "sha256": "c400b61c9c2bec6a531f6f110b3e5ce982eaaa1829a6bf7e3be96ee76aa61f9f",
+   "atlas_rect": [
+    0,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.83
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 42,
+   "name": "arched_trellis_u",
+   "file": "tiles/arched_trellis_u.png",
+   "category": "trellis",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Cream arched lattice panel, no vines or animation.",
+   "sha256": "c00810e529d31090f831fd3c3f5d36a5900f7a2acfe00a59d2b54d720e04c0ed",
+   "atlas_rect": [
+    384,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.96
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 43,
+   "name": "arched_trellis_v",
+   "file": "tiles/arched_trellis_v.png",
+   "category": "trellis",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Cream arched lattice panel, no vines or animation.",
+   "sha256": "af625794569c7b187fead4f243c81b8d68e02ab0f425e07523f50a18f1c61e16",
+   "atlas_rect": [
+    768,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.97
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 44,
+   "name": "stone_fountain_basin",
+   "file": "tiles/stone_fountain_basin.png",
+   "category": "fountain",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Square fountain basin; water z=23, rim z=32. Optional pedestal shares the same origin.",
+   "sha256": "52d82f3765f2212b774767d27de4b46bdedd3f8ca8499e69b72f251acd918e21",
+   "atlas_rect": [
+    1152,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.49
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 45,
+   "name": "fountain_pedestal",
+   "file": "tiles/fountain_pedestal.png",
+   "category": "fountain",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Static pedestal and water jet overlay for the fountain basin. No animation.",
+   "sha256": "14a3a1b5bfb058718e205dbb8a6958152e92d224eb1d206c38cc932ed3cc6936",
+   "atlas_rect": [
+    1536,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.06
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 46,
+   "name": "courtyard_bench_u",
+   "file": "tiles/courtyard_bench_u.png",
+   "category": "bench",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Architectural bench tile; ground base z=0.",
+   "sha256": "7a99a41c68a6096e4871038c13ca8f644530af0a196f42a13d076694b50fa4ab",
+   "atlas_rect": [
+    1920,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.31
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 47,
+   "name": "courtyard_bench_v",
+   "file": "tiles/courtyard_bench_v.png",
+   "category": "bench",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Architectural bench tile; ground base z=0.",
+   "sha256": "4043421f19123beeae86b1b737666c188765119378552384d555763a023af8d0",
+   "atlas_rect": [
+    2304,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.31
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 48,
+   "name": "courtyard_drain",
+   "file": "tiles/courtyard_drain.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "limestone; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "8678f3bb6e47409c81dfb9acdf32e66fdc6b87a9c830529cfb263f513ea2df90",
+   "atlas_rect": [
+    2688,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  }
+ ],
+ "real_size_note": "real_size_m = [along u, along v, height] in metres, approximate: cell footprint at 1.5 m per tile edge, height from the tallest pixel column at 100 px per metre (flat planes: visible thickness only). base_z_m = elevation_px / 100.",
+ "tile_set": true,
+ "scale_note": "Already authored at the shared world scale; no resize, no trim. Every piece keeps its 384x512 canvas and anchor (192,352)."
+}

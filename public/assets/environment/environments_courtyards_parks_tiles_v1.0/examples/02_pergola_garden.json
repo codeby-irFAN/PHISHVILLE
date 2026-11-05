@@ -1,0 +1,593 @@
+{
+ "canvas": [
+  2200,
+  1600
+ ],
+ "origin": [
+  1000,
+  410
+ ],
+ "grid": [
+  256,
+  128
+ ],
+ "anchor": [
+  192,
+  352
+ ],
+ "projection": "x=origin_x+128*(u-v), y=origin_y+64*(u+v)-z_offset_px",
+ "draw_order": [
+  {
+   "file": "../tiles/park_lawn.png",
+   "u": 0,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1000,
+    410
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_lawn.png",
+   "u": 0,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    872,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_lawn.png",
+   "u": 1,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1128,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_lawn.png",
+   "u": 0,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    744,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_lawn.png",
+   "u": 1,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1000,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 2,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1256,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_lawn.png",
+   "u": 0,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    616,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_lawn.png",
+   "u": 1,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    872,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/gazebo_deck.png",
+   "u": 2,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1128,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 3,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1384,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_lawn.png",
+   "u": 0,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    488,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_lawn.png",
+   "u": 1,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    744,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/gazebo_deck.png",
+   "u": 2,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1000,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/gazebo_deck.png",
+   "u": 3,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1256,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 4,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1512,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_lawn.png",
+   "u": 1,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    616,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 2,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    872,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/gazebo_deck.png",
+   "u": 3,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1128,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 4,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1384,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 5,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1640,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 2,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    744,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 3,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1000,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 4,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1256,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 5,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1512,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 3,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    872,
+    858
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 4,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1128,
+    858
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 5,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1384,
+    858
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 4,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1000,
+    922
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 5,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1256,
+    922
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/park_gravel.png",
+   "u": 5,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1128,
+    986
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/courtyard_bench_u.png",
+   "u": 0.5,
+   "v": 0.7,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    974,
+    487
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_post.png",
+   "u": 2,
+   "v": 1,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1128,
+    590
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_post.png",
+   "u": 4,
+   "v": 1,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1384,
+    718
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_post.png",
+   "u": 2,
+   "v": 3,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    872,
+    718
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_post.png",
+   "u": 4,
+   "v": 3,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1128,
+    846
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_lattice_roof.png",
+   "u": 2,
+   "v": 1,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1128,
+    590
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_lattice_roof.png",
+   "u": 2,
+   "v": 2,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1000,
+    654
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_lattice_roof.png",
+   "u": 3,
+   "v": 1,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1256,
+    654
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_lattice_roof.png",
+   "u": 3,
+   "v": 2,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1128,
+    718
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_beam_u.png",
+   "u": 2,
+   "v": 1,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1128,
+    590
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_beam_u.png",
+   "u": 2,
+   "v": 3,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    872,
+    718
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_beam_u.png",
+   "u": 3,
+   "v": 1,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1256,
+    654
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_beam_u.png",
+   "u": 3,
+   "v": 3,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1000,
+    782
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_beam_v.png",
+   "u": 2,
+   "v": 1,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1128,
+    590
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_beam_v.png",
+   "u": 4,
+   "v": 1,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1384,
+    718
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_beam_v.png",
+   "u": 2,
+   "v": 2,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1000,
+    654
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pergola_beam_v.png",
+   "u": 4,
+   "v": 2,
+   "z_offset_px": 12,
+   "screen_anchor": [
+    1256,
+    782
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/arched_trellis_u.png",
+   "u": 1,
+   "v": 3.8,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    642,
+    717
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/clipped_hedge_u.png",
+   "u": 0,
+   "v": 4.6,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    411,
+    704
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/clipped_hedge_u.png",
+   "u": 1,
+   "v": 4.6,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    539,
+    768
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/clipped_hedge_u.png",
+   "u": 2,
+   "v": 4.6,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    667,
+    832
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/clipped_hedge_u.png",
+   "u": 3,
+   "v": 4.6,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    795,
+    896
+   ],
+   "scale": 1
+  }
+ ]
+}

@@ -1,0 +1,461 @@
+{
+ "canvas": [
+  2000,
+  1400
+ ],
+ "origin": [
+  850,
+  430
+ ],
+ "grid": [
+  256,
+  128
+ ],
+ "anchor": [
+  192,
+  352
+ ],
+ "projection": "x=origin_x+128*(u-v), y=origin_y+64*(u+v)",
+ "draw_order": [
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 0,
+   "v": 0,
+   "screen_anchor": [
+    850,
+    430
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 0,
+   "v": 1,
+   "screen_anchor": [
+    722,
+    494
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 1,
+   "v": 0,
+   "screen_anchor": [
+    978,
+    494
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/grass_plain.png",
+   "u": 0,
+   "v": 2,
+   "screen_anchor": [
+    594,
+    558
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 1,
+   "v": 1,
+   "screen_anchor": [
+    850,
+    558
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 2,
+   "v": 0,
+   "screen_anchor": [
+    1106,
+    558
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/grass_plain.png",
+   "u": 0,
+   "v": 3,
+   "screen_anchor": [
+    466,
+    622
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/grass_plain.png",
+   "u": 1,
+   "v": 2,
+   "screen_anchor": [
+    722,
+    622
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 2,
+   "v": 1,
+   "screen_anchor": [
+    978,
+    622
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 3,
+   "v": 0,
+   "screen_anchor": [
+    1234,
+    622
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/grass_plain.png",
+   "u": 1,
+   "v": 3,
+   "screen_anchor": [
+    594,
+    686
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/grass_plain.png",
+   "u": 2,
+   "v": 2,
+   "screen_anchor": [
+    850,
+    686
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 3,
+   "v": 1,
+   "screen_anchor": [
+    1106,
+    686
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 4,
+   "v": 0,
+   "screen_anchor": [
+    1362,
+    686
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/grass_plain.png",
+   "u": 2,
+   "v": 3,
+   "screen_anchor": [
+    722,
+    750
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/grass_plain.png",
+   "u": 3,
+   "v": 2,
+   "screen_anchor": [
+    978,
+    750
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 4,
+   "v": 1,
+   "screen_anchor": [
+    1234,
+    750
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 5,
+   "v": 0,
+   "screen_anchor": [
+    1490,
+    750
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/grass_plain.png",
+   "u": 3,
+   "v": 3,
+   "screen_anchor": [
+    850,
+    814
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/grass_plain.png",
+   "u": 4,
+   "v": 2,
+   "screen_anchor": [
+    1106,
+    814
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 5,
+   "v": 1,
+   "screen_anchor": [
+    1362,
+    814
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/grass_plain.png",
+   "u": 4,
+   "v": 3,
+   "screen_anchor": [
+    978,
+    878
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/grass_plain.png",
+   "u": 5,
+   "v": 2,
+   "screen_anchor": [
+    1234,
+    878
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/grass_plain.png",
+   "u": 5,
+   "v": 3,
+   "screen_anchor": [
+    1106,
+    942
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/wall_plaster_u.png",
+   "u": 0,
+   "v": 2,
+   "screen_anchor": [
+    594,
+    558
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/gable_half_rise_u.png",
+   "u": 0,
+   "v": 2,
+   "screen_anchor": [
+    594,
+    558
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/wall_plaster_u.png",
+   "u": 1,
+   "v": 2,
+   "screen_anchor": [
+    722,
+    622
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/gable_half_fall_u.png",
+   "u": 1,
+   "v": 2,
+   "screen_anchor": [
+    722,
+    622
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/wall_brick_v.png",
+   "u": 2,
+   "v": 0,
+   "screen_anchor": [
+    1106,
+    558
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/wall_brick_v.png",
+   "u": 2,
+   "v": 1,
+   "screen_anchor": [
+    978,
+    622
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/wall_plaster_u.png",
+   "u": 3,
+   "v": 2,
+   "screen_anchor": [
+    978,
+    750
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/wall_plaster_u.png",
+   "u": 4,
+   "v": 2,
+   "screen_anchor": [
+    1106,
+    814
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/wall_brick_v.png",
+   "u": 5,
+   "v": 0,
+   "screen_anchor": [
+    1490,
+    750
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/gable_half_rise_v.png",
+   "u": 5,
+   "v": 0,
+   "screen_anchor": [
+    1490,
+    750
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/wall_brick_v.png",
+   "u": 5,
+   "v": 1,
+   "screen_anchor": [
+    1362,
+    814
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/gable_half_fall_v.png",
+   "u": 5,
+   "v": 1,
+   "screen_anchor": [
+    1362,
+    814
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_rise_u.png",
+   "u": 0,
+   "v": 0,
+   "screen_anchor": [
+    850,
+    430
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_rise_u.png",
+   "u": 0,
+   "v": 1,
+   "screen_anchor": [
+    722,
+    494
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_fall_u.png",
+   "u": 1,
+   "v": 0,
+   "screen_anchor": [
+    978,
+    494
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_fall_u.png",
+   "u": 1,
+   "v": 1,
+   "screen_anchor": [
+    850,
+    558
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_rise_v.png",
+   "u": 3,
+   "v": 0,
+   "screen_anchor": [
+    1234,
+    622
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_fall_v.png",
+   "u": 3,
+   "v": 1,
+   "screen_anchor": [
+    1106,
+    686
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_rise_v.png",
+   "u": 4,
+   "v": 0,
+   "screen_anchor": [
+    1362,
+    686
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_fall_v.png",
+   "u": 4,
+   "v": 1,
+   "screen_anchor": [
+    1234,
+    750
+   ],
+   "scale": 1
+  }
+ ]
+}

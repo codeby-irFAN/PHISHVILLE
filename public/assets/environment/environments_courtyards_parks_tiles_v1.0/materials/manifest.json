@@ -1,0 +1,105 @@
+{
+ "assets": [
+  {
+   "name": "limestone",
+   "file": "materials/limestone.png",
+   "source_rect": [
+    4,
+    4,
+    414,
+    414
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "gravel",
+   "file": "materials/gravel.png",
+   "source_rect": [
+    422,
+    4,
+    832,
+    414
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "lawn",
+   "file": "materials/lawn.png",
+   "source_rect": [
+    840,
+    4,
+    1250,
+    414
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "sandstone",
+   "file": "materials/sandstone.png",
+   "source_rect": [
+    4,
+    422,
+    414,
+    832
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "cedar",
+   "file": "materials/cedar.png",
+   "source_rect": [
+    422,
+    422,
+    832,
+    832
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "hedge",
+   "file": "materials/hedge.png",
+   "source_rect": [
+    840,
+    422,
+    1250,
+    832
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "pond_water",
+   "file": "materials/pond_water.png",
+   "source_rect": [
+    4,
+    840,
+    414,
+    1250
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "clay",
+   "file": "materials/clay.png",
+   "source_rect": [
+    422,
+    840,
+    832,
+    1250
+   ],
+   "opposite_edges_equal": true
+  },
+  {
+   "name": "cream_paint",
+   "file": "materials/cream_paint.png",
+   "source_rect": [
+    840,
+    840,
+    1250,
+    1250
+   ],
+   "opposite_edges_equal": true
+  }
+ ],
+ "border_processing": "Nearest-neighbour crop/resize, followed by 8px symmetric border balancing. Original atlas retained.",
+ "processing": "Nearest-neighbour resize of source/material_atlas.png regions to 256 px, with matched opposite edges so each swatch repeats seamlessly."
+}

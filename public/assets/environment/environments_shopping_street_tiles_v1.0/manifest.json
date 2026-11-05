@@ -1,0 +1,2005 @@
+{
+ "pack": "Shopping Street (Town Environments) — PtDesigns",
+ "version": "1.0",
+ "asset_type": "static 2D isometric environment tiles and architectural overlays",
+ "count": 52,
+ "grid": [
+  256,
+  128
+ ],
+ "canvas": [
+  384,
+  512
+ ],
+ "anchor": [
+  192,
+  352
+ ],
+ "world_scale": {
+  "px_per_floor_tile": 256,
+  "tile_px": [
+   256,
+   128
+  ],
+  "metres_per_tile_edge": 1.5,
+  "px_per_metre_height": 100,
+  "note": "Same shared world scale as the PtDesigns Household props and Cozy Shops Foundations tiles drawn at 2x."
+ },
+ "atlas_size": [
+  2304,
+  4608
+ ],
+ "assets": [
+  {
+   "id": 1,
+   "name": "asphalt_plain",
+   "file": "tiles/asphalt_plain.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": {
+    "u0": "asphalt",
+    "u1": "asphalt",
+    "v0": "asphalt",
+    "v1": "asphalt"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "3afcb349a61b12d1d198bfff360f0ffaefee273c2f90173154478250dd5a2d34",
+   "atlas_rect": [
+    0,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 2,
+   "name": "asphalt_patch",
+   "file": "tiles/asphalt_patch.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": {
+    "u0": "asphalt",
+    "u1": "asphalt",
+    "v0": "asphalt",
+    "v1": "asphalt"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "337d1f9edae6eb1b1d616b93e64051cb262c74e1fa2d57779bf679bc518b81f7",
+   "atlas_rect": [
+    384,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 3,
+   "name": "road_dashed_u",
+   "file": "tiles/road_dashed_u.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": {
+    "u0": "asphalt",
+    "u1": "asphalt",
+    "v0": "asphalt",
+    "v1": "asphalt"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "6c73fab8957ed778af359e561864e12f39c592facc380e2f6e5340b68e019c72",
+   "atlas_rect": [
+    768,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 4,
+   "name": "road_dashed_v",
+   "file": "tiles/road_dashed_v.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": {
+    "u0": "asphalt",
+    "u1": "asphalt",
+    "v0": "asphalt",
+    "v1": "asphalt"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "92ef439a9f3b02d6bb011536b7707feef9b7734e9c805d1eed8cac3ef735ee07",
+   "atlas_rect": [
+    1152,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 5,
+   "name": "crosswalk_u",
+   "file": "tiles/crosswalk_u.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": {
+    "u0": "asphalt",
+    "u1": "asphalt",
+    "v0": "asphalt",
+    "v1": "asphalt"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "a8142dbc7e03bc5ded4ca055c94f8ba5b61e0d61914e320c76c7e67c6108baf9",
+   "atlas_rect": [
+    1536,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 6,
+   "name": "crosswalk_v",
+   "file": "tiles/crosswalk_v.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": {
+    "u0": "asphalt",
+    "u1": "asphalt",
+    "v0": "asphalt",
+    "v1": "asphalt"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "00df5f82f0d08a7c674ffd658102c7d630467f01e4acdede3a71bf2bd511a6ef",
+   "atlas_rect": [
+    1920,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 7,
+   "name": "road_drain",
+   "file": "tiles/road_drain.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": {
+    "u0": "asphalt",
+    "u1": "asphalt",
+    "v0": "asphalt",
+    "v1": "asphalt"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "0e598f9f891d14315977a0de300fee1d9ce83c34ff4584f28d19c40d8256609e",
+   "atlas_rect": [
+    0,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 8,
+   "name": "sidewalk_plain",
+   "file": "tiles/sidewalk_plain.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": {
+    "u0": "concrete",
+    "u1": "concrete",
+    "v0": "concrete",
+    "v1": "concrete"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "48f5b3dae0ec77ee3c683a4cf7ea70a3acd507b0ca98dae9e82c65a106220cf7",
+   "atlas_rect": [
+    384,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 9,
+   "name": "sidewalk_worn",
+   "file": "tiles/sidewalk_worn.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": {
+    "u0": "concrete",
+    "u1": "concrete",
+    "v0": "concrete",
+    "v1": "concrete"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "df1769fdd4cbda01eea9bfa3953917f91b037d785e205a6e389937ece436b3fc",
+   "atlas_rect": [
+    768,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 10,
+   "name": "sidewalk_tactile",
+   "file": "tiles/sidewalk_tactile.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": {
+    "u0": "concrete",
+    "u1": "concrete",
+    "v0": "concrete",
+    "v1": "concrete"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "d7a46f2523a4fc94481308b8a4c8eaef5f5c435acf8e474cee4e07a24d2f4552",
+   "atlas_rect": [
+    1152,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 11,
+   "name": "curb_u",
+   "file": "tiles/curb_u.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": {
+    "u0": "concrete",
+    "u1": "concrete",
+    "v0": "concrete",
+    "v1": "concrete"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "664e7d937960712395af64ee5d86a1c67afb6495bfb705ef97ea780a416d8e13",
+   "atlas_rect": [
+    1536,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 12,
+   "name": "curb_v",
+   "file": "tiles/curb_v.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": {
+    "u0": "concrete",
+    "u1": "concrete",
+    "v0": "concrete",
+    "v1": "concrete"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "21921aae55ea22ba06610ee61a0165e0ba6274983b345852c292d00e7b3fcddd",
+   "atlas_rect": [
+    1920,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 13,
+   "name": "curb_outer_corner",
+   "file": "tiles/curb_outer_corner.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": {
+    "u0": "concrete",
+    "u1": "concrete",
+    "v0": "concrete",
+    "v1": "concrete"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "667a0cc59fbedcea879b67460de5ed09d7ad74f3a3c7d7f5f6fcb15314f8a291",
+   "atlas_rect": [
+    0,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 14,
+   "name": "brick_paving",
+   "file": "tiles/brick_paving.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": {
+    "u0": "paving",
+    "u1": "paving",
+    "v0": "paving",
+    "v1": "paving"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "de1200f77cb30897c23c7731fba8e7a19db0a86727250ef08c2064e23e9732e1",
+   "atlas_rect": [
+    384,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 15,
+   "name": "brick_paving_worn",
+   "file": "tiles/brick_paving_worn.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": {
+    "u0": "paving",
+    "u1": "paving",
+    "v0": "paving",
+    "v1": "paving"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "533102af90c65667de12bd7c4a6d2a9cd0ab52bc90bfcaa7886772c7b2c155ba",
+   "atlas_rect": [
+    768,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 16,
+   "name": "grass_plain",
+   "file": "tiles/grass_plain.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": {
+    "u0": "grass",
+    "u1": "grass",
+    "v0": "grass",
+    "v1": "grass"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "26805ab3dc68f1f5a941ab0a7beca6fe66101f67b56bc257c1f34271116fe1a2",
+   "atlas_rect": [
+    1152,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 17,
+   "name": "grass_edge_u",
+   "file": "tiles/grass_edge_u.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": {
+    "u0": "grass",
+    "u1": "grass",
+    "v0": "grass",
+    "v1": "grass",
+    "transition": "edge_u"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "ff6d046fd90c8f9c81640fce11609e0ff6ffac11db87b60a1e045cf1419553b5",
+   "atlas_rect": [
+    1536,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 18,
+   "name": "grass_edge_v",
+   "file": "tiles/grass_edge_v.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": {
+    "u0": "grass",
+    "u1": "grass",
+    "v0": "grass",
+    "v1": "grass",
+    "transition": "edge_v"
+   },
+   "notes": "256x128 ground diamond. Raised paving uses z=12; road/grass use z=0. Curb names describe the edge direction.",
+   "sha256": "94325f05c953929db80d826e364cf60759d54925040e6fa5abbcb187822857fd",
+   "atlas_rect": [
+    1920,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 19,
+   "name": "wall_brick_u",
+   "file": "tiles/wall_brick_u.png",
+   "category": "wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Wall rises from z=12 to z=268 (2.56 m tall). Ends align with neighboring wall modules.",
+   "sha256": "f531e713a2460c56e470827225db5b49dd14f5fd95e775b8a21b1f2a805917a8",
+   "atlas_rect": [
+    0,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 20,
+   "name": "wall_brick_v",
+   "file": "tiles/wall_brick_v.png",
+   "category": "wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Wall rises from z=12 to z=268 (2.56 m tall). Ends align with neighboring wall modules.",
+   "sha256": "e26ae839f2769c3310d266b611d4da5a8e5ca3ce9ee4945f4d6adb2f82541d0b",
+   "atlas_rect": [
+    384,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 21,
+   "name": "wall_plaster_u",
+   "file": "tiles/wall_plaster_u.png",
+   "category": "wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Wall rises from z=12 to z=268 (2.56 m tall). Ends align with neighboring wall modules.",
+   "sha256": "33ba37df0f80b6fae985889fab63fd1b4754d9312d09d6fd3ac1f9e2f745fb34",
+   "atlas_rect": [
+    768,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 22,
+   "name": "wall_plaster_v",
+   "file": "tiles/wall_plaster_v.png",
+   "category": "wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Wall rises from z=12 to z=268 (2.56 m tall). Ends align with neighboring wall modules.",
+   "sha256": "afbd868648e6337be44f088c8ae5c2fa01a9dd783b6f2b0dd7c6e6149c19c519",
+   "atlas_rect": [
+    1152,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 23,
+   "name": "wall_wood_u",
+   "file": "tiles/wall_wood_u.png",
+   "category": "wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Wall rises from z=12 to z=268 (2.56 m tall). Ends align with neighboring wall modules.",
+   "sha256": "ed4c2bdb1588fb2be908a0cfa54430fc91c7b4a6f0f5598269566a5874da7be4",
+   "atlas_rect": [
+    1536,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 24,
+   "name": "wall_wood_v",
+   "file": "tiles/wall_wood_v.png",
+   "category": "wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Wall rises from z=12 to z=268 (2.56 m tall). Ends align with neighboring wall modules.",
+   "sha256": "ab0f020f1582b9739dac376f3fdad2dddb3c7a18c07a01d9c280eed2c2d8537c",
+   "atlas_rect": [
+    1920,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 25,
+   "name": "storefront_window_u",
+   "file": "tiles/storefront_window_u.png",
+   "category": "storefront",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Same wall endpoints as plaster walls. Glass is painted opaque; open doorway aperture is transparent.",
+   "sha256": "8533661f34f4cb44f84ae890350dafede00c18775b1a81053ecbcf6db5684c54",
+   "atlas_rect": [
+    0,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 26,
+   "name": "storefront_window_v",
+   "file": "tiles/storefront_window_v.png",
+   "category": "storefront",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Same wall endpoints as plaster walls. Glass is painted opaque; open doorway aperture is transparent.",
+   "sha256": "bbb40b85e1d976577f81b974a5aee9b89134f82c693dc4b3dbca577a4002c5ad",
+   "atlas_rect": [
+    384,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 27,
+   "name": "storefront_glass_door_u",
+   "file": "tiles/storefront_glass_door_u.png",
+   "category": "storefront",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Same wall endpoints as plaster walls. Glass is painted opaque; open doorway aperture is transparent.",
+   "sha256": "b34f36be8bc4a428c88ebad8441692f0aa5681b86f8e7d58a0ad4f9a69332a64",
+   "atlas_rect": [
+    768,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.59
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 28,
+   "name": "storefront_glass_door_v",
+   "file": "tiles/storefront_glass_door_v.png",
+   "category": "storefront",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Same wall endpoints as plaster walls. Glass is painted opaque; open doorway aperture is transparent.",
+   "sha256": "0deda58b1203dcf26c13eb1b27a3e1b68fc2cc8c434ef6c49648236061c860e6",
+   "atlas_rect": [
+    1152,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.59
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 29,
+   "name": "storefront_solid_door_u",
+   "file": "tiles/storefront_solid_door_u.png",
+   "category": "storefront",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Same wall endpoints as plaster walls. Glass is painted opaque; open doorway aperture is transparent.",
+   "sha256": "3bdcaef0d08eaa12ca8373ab8eeabeab92ecb8a8c2c9ea185dcb469dfe37f33d",
+   "atlas_rect": [
+    1536,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.59
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 30,
+   "name": "storefront_solid_door_v",
+   "file": "tiles/storefront_solid_door_v.png",
+   "category": "storefront",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Same wall endpoints as plaster walls. Glass is painted opaque; open doorway aperture is transparent.",
+   "sha256": "825e060716baa80dab616d6f2202e9299c82ed5e569ebf76b627391225ab6cb2",
+   "atlas_rect": [
+    1920,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.59
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 31,
+   "name": "storefront_open_doorway_u",
+   "file": "tiles/storefront_open_doorway_u.png",
+   "category": "storefront",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Same wall endpoints as plaster walls. Glass is painted opaque; open doorway aperture is transparent.",
+   "sha256": "75ebf6092d8c21ff058872e0c7f161177d7a7bb43fe02d5af2e95e2a720bec32",
+   "atlas_rect": [
+    0,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.59
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 32,
+   "name": "storefront_open_doorway_v",
+   "file": "tiles/storefront_open_doorway_v.png",
+   "category": "storefront",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Same wall endpoints as plaster walls. Glass is painted opaque; open doorway aperture is transparent.",
+   "sha256": "4fb46068cf60bd0de3a9e681e0828c4d78aa17ee08a622dcb0d69066d487000b",
+   "atlas_rect": [
+    384,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.59
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 33,
+   "name": "corner_post_brick",
+   "file": "tiles/corner_post_brick.png",
+   "category": "corner",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Overlay on the shared corner where two wall orientations meet.",
+   "sha256": "17a0f0113f5719fba38fb90e2d3ddaec7c74eef9feb8c237a203a2bd970cb809",
+   "atlas_rect": [
+    768,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.69
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 34,
+   "name": "corner_post_wood",
+   "file": "tiles/corner_post_wood.png",
+   "category": "corner",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Overlay on the shared corner where two wall orientations meet.",
+   "sha256": "8d51acfda234ee4c2901e96bb2d34aec9447b4189f6a1a9b4bdb47cd2a234bbc",
+   "atlas_rect": [
+    1152,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.69
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 35,
+   "name": "striped_awning_u",
+   "file": "tiles/striped_awning_u.png",
+   "category": "awning",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Red/cream canopy projects 0.42 tile out from its mounting wall. Overlay at the wall origin.",
+   "sha256": "6c0ce34ece14235a2114198d05e0ddf2e1fbae0cdb0fe47d9dc9749c419541b8",
+   "atlas_rect": [
+    1536,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.97
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 36,
+   "name": "striped_awning_v",
+   "file": "tiles/striped_awning_v.png",
+   "category": "awning",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Red/cream canopy projects 0.42 tile out from its mounting wall. Overlay at the wall origin.",
+   "sha256": "d04f55b8ee10adf7198a8aab3a549bca7056041082051827c98658656b04a436",
+   "atlas_rect": [
+    1920,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.97
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 37,
+   "name": "slate_roof_flat",
+   "file": "tiles/slate_roof_flat.png",
+   "category": "roof",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Roof base z=268. Slopes rise 64px across one tile; pair rise/fall along the same axis to make a gable.",
+   "sha256": "ee2cf1551dbffbc992a052b7739aca8b21f8bdc52eb502c2efdd5e00f509cecf",
+   "atlas_rect": [
+    0,
+    3072,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 38,
+   "name": "slate_roof_rise_u",
+   "file": "tiles/slate_roof_rise_u.png",
+   "category": "roof",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Roof base z=268. Slopes rise 64px across one tile; pair rise/fall along the same axis to make a gable.",
+   "sha256": "a48c7d5a75a1a6896e76882bf6bc75e4b944d2060ac4b6d296aa8b089c49dc2c",
+   "atlas_rect": [
+    384,
+    3072,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.64
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 39,
+   "name": "slate_roof_fall_u",
+   "file": "tiles/slate_roof_fall_u.png",
+   "category": "roof",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Roof base z=268. Slopes rise 64px across one tile; pair rise/fall along the same axis to make a gable.",
+   "sha256": "7831b979aeb6cd1cd7a71b3fc4092ad2a14d48327a77b72628c32e1fc9422bda",
+   "atlas_rect": [
+    768,
+    3072,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.64
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 40,
+   "name": "slate_roof_rise_v",
+   "file": "tiles/slate_roof_rise_v.png",
+   "category": "roof",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Roof base z=268. Slopes rise 64px across one tile; pair rise/fall along the same axis to make a gable.",
+   "sha256": "d565ea084f6231d27706dd4819e5370e2d58085e47e7682c908aa173e9704e75",
+   "atlas_rect": [
+    1152,
+    3072,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.64
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 41,
+   "name": "slate_roof_fall_v",
+   "file": "tiles/slate_roof_fall_v.png",
+   "category": "roof",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Roof base z=268. Slopes rise 64px across one tile; pair rise/fall along the same axis to make a gable.",
+   "sha256": "5d593cd99111f98d609dae6b9cf7f2437d14f4870d6a40fc65216701330f1255",
+   "atlas_rect": [
+    1536,
+    3072,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.64
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 42,
+   "name": "eave_gutter_u",
+   "file": "tiles/eave_gutter_u.png",
+   "category": "roof_trim",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Copper-toned eave/gutter overlay at the low roof edge z=268.",
+   "sha256": "dc806593c109adc092de14ccd26fc97ebf680c832b94d87f2423d9f0c80060a7",
+   "atlas_rect": [
+    1920,
+    3072,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.09
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 43,
+   "name": "eave_gutter_v",
+   "file": "tiles/eave_gutter_v.png",
+   "category": "roof_trim",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Copper-toned eave/gutter overlay at the low roof edge z=268.",
+   "sha256": "006ccc1cf2bac43681a45ac136dd3fc58e037359a3d3537733873568424dfb1e",
+   "atlas_rect": [
+    0,
+    3584,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.1
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 44,
+   "name": "corner_downpipe",
+   "file": "tiles/corner_downpipe.png",
+   "category": "fixture",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Downpipe from low eave to raised pavement; mount near a wall corner.",
+   "sha256": "7980188a3786ba686ed0a82eca7df00dc98f988a5f2dd603f3aa9fd53667ec8d",
+   "atlas_rect": [
+    384,
+    3584,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.41
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 45,
+   "name": "blank_shop_sign_u",
+   "file": "tiles/blank_shop_sign_u.png",
+   "category": "sign",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Blank navy sign for your own lettering; sits above the door or window.",
+   "sha256": "b6598f0e43a2b76f772be32ae2a019a2e30554ebbfc677d5e7540a06a62a602d",
+   "atlas_rect": [
+    768,
+    3584,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.23
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 46,
+   "name": "blank_shop_sign_v",
+   "file": "tiles/blank_shop_sign_v.png",
+   "category": "sign",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Blank navy sign for your own lettering; sits above the door or window.",
+   "sha256": "b46dd1bb7062aca868a70a6776488b00f9afb06f5ae10ea4c5f8dc288dbf5366",
+   "atlas_rect": [
+    1152,
+    3584,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.23
+   ],
+   "base_z_m": 0.0,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 47,
+   "name": "brick_chimney",
+   "file": "tiles/brick_chimney.png",
+   "category": "roof_fixture",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Roof fixture on a FLAT roof at z=268. Different slope heights need a placement offset.",
+   "sha256": "daf8fcf6cd1d2bdc0dc91999804be95e5b858ecfcd8d7e9fd7c8966a4c37e98b",
+   "atlas_rect": [
+    1536,
+    3584,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.15
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 48,
+   "name": "roof_vent",
+   "file": "tiles/roof_vent.png",
+   "category": "roof_fixture",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Roof fixture on a flat roof at z=268.",
+   "sha256": "50411ad14111505a57e330accf42f51768af97a32f3b8b9f9ba4b97feda56f33",
+   "atlas_rect": [
+    1920,
+    3584,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.65
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 49,
+   "name": "gable_half_rise_u",
+   "file": "tiles/gable_half_rise_u.png",
+   "category": "gable",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Triangular half-gable closes the space between a 2.56m wall and a matching sloping roof. Pair rise/fall halves along the same axis.",
+   "sha256": "ab838a979e6cb012877d7a1eef51dfcf8aa5dcc8b3a15e657ecafabcedeafa73",
+   "atlas_rect": [
+    0,
+    4096,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.66
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 50,
+   "name": "gable_half_fall_u",
+   "file": "tiles/gable_half_fall_u.png",
+   "category": "gable",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Triangular half-gable closes the space between a 2.56m wall and a matching sloping roof. Pair rise/fall halves along the same axis.",
+   "sha256": "2954c16417affca315a8c4e7d9d1b8afa6dcb922a4a24be1257d1bce154450e5",
+   "atlas_rect": [
+    384,
+    4096,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.66
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 51,
+   "name": "gable_half_rise_v",
+   "file": "tiles/gable_half_rise_v.png",
+   "category": "gable",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Triangular half-gable closes the space between a 2.56m wall and a matching sloping roof. Pair rise/fall halves along the same axis.",
+   "sha256": "eab9662dfea70a4613f40a7f10b41016dd4ef1ea9d2edb81896ab3530bf9152e",
+   "atlas_rect": [
+    768,
+    4096,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.65
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 52,
+   "name": "gable_half_fall_v",
+   "file": "tiles/gable_half_fall_v.png",
+   "category": "gable",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Triangular half-gable closes the space between a 2.56m wall and a matching sloping roof. Pair rise/fall halves along the same axis.",
+   "sha256": "bd39edc8fc3859fc6037a5c83cfe41decd49434557236658c5a6af14a3862e24",
+   "atlas_rect": [
+    1152,
+    4096,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.65
+   ],
+   "base_z_m": 2.68
+  }
+ ],
+ "real_size_note": "real_size_m = [along u, along v, height] in metres, approximate: cell footprint at 1.5 m per tile edge, height from the tallest pixel column at 100 px per metre (flat planes: visible thickness only). base_z_m = elevation_px / 100.",
+ "tile_set": true,
+ "scale_note": "Already authored at the shared world scale; no resize, no trim. Every piece keeps its 384x512 canvas and anchor (192,352)."
+}

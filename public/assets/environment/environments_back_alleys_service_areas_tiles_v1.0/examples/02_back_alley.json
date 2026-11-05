@@ -1,0 +1,538 @@
+{
+ "canvas": [
+  2300,
+  1600
+ ],
+ "origin": [
+  1050,
+  410
+ ],
+ "grid": [
+  256,
+  128
+ ],
+ "anchor": [
+  192,
+  352
+ ],
+ "projection": "x=origin_x+128*(u-v), y=origin_y+64*(u+v)-z_offset_px",
+ "draw_order": [
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 0,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1050,
+    410
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 0,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    922,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 1,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1178,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 0,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    794,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 1,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1050,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 2,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1306,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 0,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    666,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 1,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    922,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 2,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1178,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 3,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1434,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 0,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    538,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 1,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    794,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 2,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1050,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 3,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1306,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 4,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1562,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 1,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    666,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/asphalt_patch.png",
+   "u": 2,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    922,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 3,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1178,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 4,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1434,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 5,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1690,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 2,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    794,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 3,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1050,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 4,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1306,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 5,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1562,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 6,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1818,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 3,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    922,
+    858
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/storm_drain.png",
+   "u": 4,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1178,
+    858
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/utility_hatch.png",
+   "u": 5,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1434,
+    858
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 6,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1690,
+    858
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 4,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1050,
+    922
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 5,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1306,
+    922
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 6,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1562,
+    922
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 5,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1178,
+    986
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 6,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1434,
+    986
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/alley_asphalt.png",
+   "u": 6,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1306,
+    1050
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/cracked_brick_wall_u.png",
+   "u": 0,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    922,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/personnel_door_u.png",
+   "u": 1,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1050,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/cracked_brick_wall_u.png",
+   "u": 2,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1178,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/barred_window_u.png",
+   "u": 3,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1306,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/cracked_brick_wall_u.png",
+   "u": 4,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1434,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/barred_window_u.png",
+   "u": 5,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1562,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/cracked_brick_wall_u.png",
+   "u": 6,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1690,
+    858
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pipe_panel_u.png",
+   "u": 0,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    922,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/vent_louver_u.png",
+   "u": 2,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1178,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/pipe_panel_u.png",
+   "u": 4,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1434,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/bulkhead_light_u.png",
+   "u": 6,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1690,
+    858
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_downpipe.png",
+   "u": 0,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    922,
+    474
+   ],
+   "scale": 1
+  }
+ ]
+}

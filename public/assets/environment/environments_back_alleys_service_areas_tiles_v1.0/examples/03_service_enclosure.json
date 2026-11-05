@@ -1,0 +1,505 @@
+{
+ "canvas": [
+  2000,
+  1500
+ ],
+ "origin": [
+  900,
+  410
+ ],
+ "grid": [
+  256,
+  128
+ ],
+ "anchor": [
+  192,
+  352
+ ],
+ "projection": "x=origin_x+128*(u-v), y=origin_y+64*(u+v)-z_offset_px",
+ "draw_order": [
+  {
+   "file": "../tiles/service_concrete_worn.png",
+   "u": 0,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    900,
+    410
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 0,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    772,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 1,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1028,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 0,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    644,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 1,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    900,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 2,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1156,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete_worn.png",
+   "u": 0,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    516,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete_worn.png",
+   "u": 1,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    772,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete_worn.png",
+   "u": 2,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1028,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete_worn.png",
+   "u": 3,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1284,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 0,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    388,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 1,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    644,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 2,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    900,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 3,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1156,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 4,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1412,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 1,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    516,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 2,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    772,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 3,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1028,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 4,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1284,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete_worn.png",
+   "u": 2,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    644,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete_worn.png",
+   "u": 3,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    900,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete_worn.png",
+   "u": 4,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1156,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 3,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    772,
+    858
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 4,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1028,
+    858
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_concrete.png",
+   "u": 4,
+   "v": 4,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    900,
+    922
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_wall_brick_u.png",
+   "u": 0,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    900,
+    410
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_wall_brick_u.png",
+   "u": 1,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1028,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_wall_brick_u.png",
+   "u": 2,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1156,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_wall_brick_u.png",
+   "u": 3,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1284,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_wall_brick_u.png",
+   "u": 4,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1412,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/low_brick_wall_v.png",
+   "u": 0,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    900,
+    410
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/low_brick_wall_v.png",
+   "u": 0,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    772,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/low_brick_wall_v.png",
+   "u": 0,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    644,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/chainlink_fence_u.png",
+   "u": 0,
+   "v": 4.8,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    286,
+    717
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/chainlink_fence_u.png",
+   "u": 1,
+   "v": 4.8,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    414,
+    781
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/service_gate_u.png",
+   "u": 2,
+   "v": 4.8,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    542,
+    845
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/chainlink_fence_u.png",
+   "u": 3,
+   "v": 4.8,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    670,
+    909
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/chainlink_fence_u.png",
+   "u": 4,
+   "v": 4.8,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    798,
+    973
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/chainlink_fence_v.png",
+   "u": 4.8,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1514,
+    717
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/chainlink_fence_v.png",
+   "u": 4.8,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1386,
+    781
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/chainlink_fence_v.png",
+   "u": 4.8,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1258,
+    845
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/chainlink_fence_v.png",
+   "u": 4.8,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1130,
+    909
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/utility_hatch.png",
+   "u": 2,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    900,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/storm_drain.png",
+   "u": 3,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    900,
+    794
+   ],
+   "scale": 1
+  }
+ ]
+}

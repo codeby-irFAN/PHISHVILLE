@@ -1,0 +1,395 @@
+{
+ "canvas": [
+  1900,
+  1400
+ ],
+ "origin": [
+  850,
+  410
+ ],
+ "grid": [
+  256,
+  128
+ ],
+ "anchor": [
+  192,
+  352
+ ],
+ "projection": "x=origin_x+128*(u-v), y=origin_y+64*(u+v)-z_offset_px",
+ "draw_order": [
+  {
+   "file": "../tiles/flagstone.png",
+   "u": 0,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    850,
+    410
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/flagstone.png",
+   "u": 0,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    722,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/flagstone.png",
+   "u": 1,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    978,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_lawn.png",
+   "u": 0,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    594,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/flagstone.png",
+   "u": 1,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    850,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/flagstone.png",
+   "u": 2,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1106,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_lawn.png",
+   "u": 0,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    466,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_lawn.png",
+   "u": 1,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    722,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/flagstone.png",
+   "u": 2,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    978,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/flagstone.png",
+   "u": 3,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1234,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_lawn.png",
+   "u": 1,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    594,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_lawn.png",
+   "u": 2,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    850,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/flagstone.png",
+   "u": 3,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1106,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/flagstone.png",
+   "u": 4,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1362,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_lawn.png",
+   "u": 2,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    722,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_lawn.png",
+   "u": 3,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    978,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/flagstone.png",
+   "u": 4,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1234,
+    730
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_lawn.png",
+   "u": 3,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    850,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_lawn.png",
+   "u": 4,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1106,
+    794
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_lawn.png",
+   "u": 4,
+   "v": 3,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    978,
+    858
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/house_sash_u.png",
+   "u": 1,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    722,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/gable_rise_u.png",
+   "u": 1,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    722,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/house_sash_u.png",
+   "u": 2,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    850,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/gable_fall_u.png",
+   "u": 2,
+   "v": 2,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    850,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/house_wall_brick_v.png",
+   "u": 3,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1234,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/house_wall_brick_v.png",
+   "u": 3,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1106,
+    666
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/roof_rise_u.png",
+   "u": 1,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    978,
+    474
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/roof_rise_u.png",
+   "u": 1,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    850,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/roof_fall_u.png",
+   "u": 2,
+   "v": 0,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    1106,
+    538
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/roof_fall_u.png",
+   "u": 2,
+   "v": 1,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    978,
+    602
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_fence_u.png",
+   "u": 0,
+   "v": 3.8,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    364,
+    653
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_gate_u.png",
+   "u": 1,
+   "v": 3.8,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    492,
+    717
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_fence_u.png",
+   "u": 2,
+   "v": 3.8,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    620,
+    781
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/garden_fence_u.png",
+   "u": 3,
+   "v": 3.8,
+   "z_offset_px": 0,
+   "screen_anchor": [
+    748,
+    845
+   ],
+   "scale": 1
+  }
+ ]
+}

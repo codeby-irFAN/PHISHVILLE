@@ -1,0 +1,491 @@
+{
+ "canvas": [
+  1800,
+  1400
+ ],
+ "origin": [
+  850,
+  420
+ ],
+ "grid": [
+  256,
+  128
+ ],
+ "anchor": [
+  192,
+  352
+ ],
+ "projection": "x=origin_x+128*(u-v), y=origin_y+64*(u+v)",
+ "draw_order": [
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 0,
+   "v": 0,
+   "screen_anchor": [
+    850,
+    420
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 0,
+   "v": 1,
+   "screen_anchor": [
+    722,
+    484
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 1,
+   "v": 0,
+   "screen_anchor": [
+    978,
+    484
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 0,
+   "v": 2,
+   "screen_anchor": [
+    594,
+    548
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/brick_paving.png",
+   "u": 1,
+   "v": 1,
+   "screen_anchor": [
+    850,
+    548
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 2,
+   "v": 0,
+   "screen_anchor": [
+    1106,
+    548
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 0,
+   "v": 3,
+   "screen_anchor": [
+    466,
+    612
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/brick_paving.png",
+   "u": 1,
+   "v": 2,
+   "screen_anchor": [
+    722,
+    612
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/brick_paving.png",
+   "u": 2,
+   "v": 1,
+   "screen_anchor": [
+    978,
+    612
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 3,
+   "v": 0,
+   "screen_anchor": [
+    1234,
+    612
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 0,
+   "v": 4,
+   "screen_anchor": [
+    338,
+    676
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 1,
+   "v": 3,
+   "screen_anchor": [
+    594,
+    676
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/brick_paving.png",
+   "u": 2,
+   "v": 2,
+   "screen_anchor": [
+    850,
+    676
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/brick_paving.png",
+   "u": 3,
+   "v": 1,
+   "screen_anchor": [
+    1106,
+    676
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 4,
+   "v": 0,
+   "screen_anchor": [
+    1362,
+    676
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 1,
+   "v": 4,
+   "screen_anchor": [
+    466,
+    740
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 2,
+   "v": 3,
+   "screen_anchor": [
+    722,
+    740
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/brick_paving.png",
+   "u": 3,
+   "v": 2,
+   "screen_anchor": [
+    978,
+    740
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 4,
+   "v": 1,
+   "screen_anchor": [
+    1234,
+    740
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 2,
+   "v": 4,
+   "screen_anchor": [
+    594,
+    804
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 3,
+   "v": 3,
+   "screen_anchor": [
+    850,
+    804
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 4,
+   "v": 2,
+   "screen_anchor": [
+    1106,
+    804
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 3,
+   "v": 4,
+   "screen_anchor": [
+    722,
+    868
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 4,
+   "v": 3,
+   "screen_anchor": [
+    978,
+    868
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/sidewalk_plain.png",
+   "u": 4,
+   "v": 4,
+   "screen_anchor": [
+    850,
+    932
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/storefront_window_u.png",
+   "u": 1,
+   "v": 3,
+   "screen_anchor": [
+    594,
+    676
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/striped_awning_u.png",
+   "u": 1,
+   "v": 3,
+   "screen_anchor": [
+    594,
+    676
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/storefront_solid_door_u.png",
+   "u": 2,
+   "v": 3,
+   "screen_anchor": [
+    722,
+    740
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/striped_awning_u.png",
+   "u": 2,
+   "v": 3,
+   "screen_anchor": [
+    722,
+    740
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/storefront_window_u.png",
+   "u": 3,
+   "v": 3,
+   "screen_anchor": [
+    850,
+    804
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/striped_awning_u.png",
+   "u": 3,
+   "v": 3,
+   "screen_anchor": [
+    850,
+    804
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/storefront_window_v.png",
+   "u": 4,
+   "v": 1,
+   "screen_anchor": [
+    1234,
+    740
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/storefront_window_v.png",
+   "u": 4,
+   "v": 2,
+   "screen_anchor": [
+    1106,
+    804
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_flat.png",
+   "u": 1,
+   "v": 1,
+   "screen_anchor": [
+    850,
+    548
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_flat.png",
+   "u": 1,
+   "v": 2,
+   "screen_anchor": [
+    722,
+    612
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/eave_gutter_u.png",
+   "u": 1,
+   "v": 3,
+   "screen_anchor": [
+    594,
+    676
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_flat.png",
+   "u": 2,
+   "v": 1,
+   "screen_anchor": [
+    978,
+    612
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_flat.png",
+   "u": 2,
+   "v": 2,
+   "screen_anchor": [
+    850,
+    676
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/eave_gutter_u.png",
+   "u": 2,
+   "v": 3,
+   "screen_anchor": [
+    722,
+    740
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_flat.png",
+   "u": 3,
+   "v": 1,
+   "screen_anchor": [
+    1106,
+    676
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/slate_roof_flat.png",
+   "u": 3,
+   "v": 2,
+   "screen_anchor": [
+    978,
+    740
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/eave_gutter_u.png",
+   "u": 3,
+   "v": 3,
+   "screen_anchor": [
+    850,
+    804
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/eave_gutter_v.png",
+   "u": 4,
+   "v": 1,
+   "screen_anchor": [
+    1234,
+    740
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/eave_gutter_v.png",
+   "u": 4,
+   "v": 2,
+   "screen_anchor": [
+    1106,
+    804
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/corner_post_wood.png",
+   "u": 4,
+   "v": 3,
+   "screen_anchor": [
+    978,
+    868
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/brick_chimney.png",
+   "u": 2,
+   "v": 1,
+   "screen_anchor": [
+    978,
+    612
+   ],
+   "scale": 1
+  },
+  {
+   "file": "../tiles/blank_shop_sign_u.png",
+   "u": 2,
+   "v": 3,
+   "screen_anchor": [
+    722,
+    740
+   ],
+   "scale": 1
+  }
+ ]
+}

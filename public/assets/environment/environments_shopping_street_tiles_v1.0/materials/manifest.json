@@ -1,0 +1,141 @@
+{
+ "source": "source/material_atlas.png",
+ "processing": "Nearest-neighbour resize of source/material_atlas.png regions to 256 px, with matched opposite edges so each swatch repeats seamlessly.",
+ "assets": [
+  {
+   "name": "asphalt",
+   "source_rect": [
+    4,
+    4,
+    414,
+    414
+   ],
+   "file": "materials/asphalt.png",
+   "size": [
+    256,
+    256
+   ],
+   "opposite_edge_pixels_equal": true
+  },
+  {
+   "name": "concrete",
+   "source_rect": [
+    422,
+    4,
+    832,
+    414
+   ],
+   "file": "materials/concrete.png",
+   "size": [
+    256,
+    256
+   ],
+   "opposite_edge_pixels_equal": true
+  },
+  {
+   "name": "paving",
+   "source_rect": [
+    840,
+    4,
+    1250,
+    414
+   ],
+   "file": "materials/paving.png",
+   "size": [
+    256,
+    256
+   ],
+   "opposite_edge_pixels_equal": true
+  },
+  {
+   "name": "brick",
+   "source_rect": [
+    4,
+    422,
+    414,
+    832
+   ],
+   "file": "materials/brick.png",
+   "size": [
+    256,
+    256
+   ],
+   "opposite_edge_pixels_equal": true
+  },
+  {
+   "name": "plaster",
+   "source_rect": [
+    422,
+    422,
+    832,
+    832
+   ],
+   "file": "materials/plaster.png",
+   "size": [
+    256,
+    256
+   ],
+   "opposite_edge_pixels_equal": true
+  },
+  {
+   "name": "wood",
+   "source_rect": [
+    840,
+    422,
+    1250,
+    832
+   ],
+   "file": "materials/wood.png",
+   "size": [
+    256,
+    256
+   ],
+   "opposite_edge_pixels_equal": true
+  },
+  {
+   "name": "slate",
+   "source_rect": [
+    4,
+    840,
+    414,
+    1250
+   ],
+   "file": "materials/slate.png",
+   "size": [
+    256,
+    256
+   ],
+   "opposite_edge_pixels_equal": true
+  },
+  {
+   "name": "grass",
+   "source_rect": [
+    422,
+    840,
+    832,
+    1250
+   ],
+   "file": "materials/grass.png",
+   "size": [
+    256,
+    256
+   ],
+   "opposite_edge_pixels_equal": true
+  },
+  {
+   "name": "teal",
+   "source_rect": [
+    840,
+    840,
+    1250,
+    1250
+   ],
+   "file": "materials/teal.png",
+   "size": [
+    256,
+    256
+   ],
+   "opposite_edge_pixels_equal": true
+  }
+ ]
+}

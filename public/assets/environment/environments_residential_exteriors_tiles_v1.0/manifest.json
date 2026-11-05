@@ -1,0 +1,1767 @@
+{
+ "pack": "Residential Exteriors (Town Environments) — PtDesigns",
+ "version": "1.0",
+ "count": 48,
+ "asset_type": "static 2D isometric environment tiles and overlays",
+ "grid": [
+  256,
+  128
+ ],
+ "canvas": [
+  384,
+  512
+ ],
+ "anchor": [
+  192,
+  352
+ ],
+ "world_scale": {
+  "px_per_floor_tile": 256,
+  "tile_px": [
+   256,
+   128
+  ],
+  "metres_per_tile_edge": 1.5,
+  "px_per_metre_height": 100,
+  "note": "Same shared world scale as the PtDesigns Household props and Cozy Shops Foundations tiles drawn at 2x."
+ },
+ "atlas_size": [
+  3072,
+  3072
+ ],
+ "assets": [
+  {
+   "id": 1,
+   "name": "flagstone",
+   "file": "tiles/flagstone.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "flagstone; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "dbbf5909023734e456bf0c062d8f0fadaa872f502a34ede3ae9ad36b85ffd2a4",
+   "atlas_rect": [
+    0,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 2,
+   "name": "flagstone_worn",
+   "file": "tiles/flagstone_worn.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "flagstone; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "8301b9a4adbb1ad9b135db41c710d67f094f6fb20a081ab4a752fc9e1d48dce6",
+   "atlas_rect": [
+    384,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 3,
+   "name": "drive_gravel",
+   "file": "tiles/drive_gravel.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "gravel; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "899ef9fdc548a919084ab735fbfbaabfbb2a518a2995568a8ae906d2c6d1fa20",
+   "atlas_rect": [
+    768,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 4,
+   "name": "drive_gravel_worn",
+   "file": "tiles/drive_gravel_worn.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "gravel; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "efd684abdbbf63eaf0a5272281545af73c04a56f957b27c03466775ecfc7c731",
+   "atlas_rect": [
+    1152,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 5,
+   "name": "garden_lawn",
+   "file": "tiles/garden_lawn.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "lawn; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "b4d6608bcc24421dd597a1a5ec25f356c9512d94798720be3392ba59be03b940",
+   "atlas_rect": [
+    1536,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 6,
+   "name": "oak_porch_deck",
+   "file": "tiles/oak_porch_deck.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "oak; surface z=12px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "c839aff088159e013602fa72d0bb616b5d63e8059ba6e7b62a70bac25d5483c9",
+   "atlas_rect": [
+    1920,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 7,
+   "name": "raised_entry_paving",
+   "file": "tiles/raised_entry_paving.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "flagstone; surface z=12px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "c40816cd3024b18d625ba878f6fe450bb32d575ff4b213581ecedd41fc60be32",
+   "atlas_rect": [
+    2304,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 8,
+   "name": "lawn_path_u",
+   "file": "tiles/lawn_path_u.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "lawn; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "cc9ac2c4384cf1ec5c7cb0772affb2c000f4cab6bbfea4bf5d94b14158fc2ee6",
+   "atlas_rect": [
+    2688,
+    0,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 9,
+   "name": "lawn_path_v",
+   "file": "tiles/lawn_path_v.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "lawn; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "4d8619e5fa8f3a030a90cedcbf6df12cc6ab65e6fec2c973a29d943b7cadbf5a",
+   "atlas_rect": [
+    0,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 10,
+   "name": "lawn_path_corner",
+   "file": "tiles/lawn_path_corner.png",
+   "category": "ground",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "lawn; surface z=0px. Orientation is a world axis. Transition variants are explicit manual-placement pieces.",
+   "sha256": "883c69316332e32fd6448a3c6759afd568c4676347ef0da3266b4d7f8d9181a5",
+   "atlas_rect": [
+    384,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 11,
+   "name": "house_wall_brick_u",
+   "file": "tiles/house_wall_brick_u.png",
+   "category": "wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Wall z=12..268; same endpoints as the other house wall modules.",
+   "sha256": "b6268be345e4cd88e9987e479dc1ce51d0dc977e94735d33a9294f4a207ab7ac",
+   "atlas_rect": [
+    768,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 12,
+   "name": "house_wall_brick_v",
+   "file": "tiles/house_wall_brick_v.png",
+   "category": "wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Wall z=12..268; same endpoints as the other house wall modules.",
+   "sha256": "c8f29f47445e83c9beaeeb9ea1edd34f6e7cafa4a68d4351ba0c006e81799220",
+   "atlas_rect": [
+    1152,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 13,
+   "name": "house_wall_plaster_u",
+   "file": "tiles/house_wall_plaster_u.png",
+   "category": "wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Wall z=12..268; same endpoints as the other house wall modules.",
+   "sha256": "4be74869e3e422313a168d00b479e65570a19bb34d057d6d1308546a0472b295",
+   "atlas_rect": [
+    1536,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 14,
+   "name": "house_wall_plaster_v",
+   "file": "tiles/house_wall_plaster_v.png",
+   "category": "wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Wall z=12..268; same endpoints as the other house wall modules.",
+   "sha256": "f34616cb9e939faa562d312636d10eb9528a76ab216a0058897a7c08fae0d23d",
+   "atlas_rect": [
+    1920,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 15,
+   "name": "house_wall_wood_u",
+   "file": "tiles/house_wall_wood_u.png",
+   "category": "wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Wall z=12..268; same endpoints as the other house wall modules.",
+   "sha256": "5889db03671a0c8ddf6850c0bbfc4036886168b0d280aaf9b6536d1954bc5bb8",
+   "atlas_rect": [
+    2304,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 16,
+   "name": "house_wall_wood_v",
+   "file": "tiles/house_wall_wood_v.png",
+   "category": "wall",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Wall z=12..268; same endpoints as the other house wall modules.",
+   "sha256": "66cdab4add386d97f4a4d36a45dadc5fd435f7ae464d4ff0f82056ed49cfd80e",
+   "atlas_rect": [
+    2688,
+    512,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 17,
+   "name": "house_sash_u",
+   "file": "tiles/house_sash_u.png",
+   "category": "house_front",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "House wall with residential window or entry detail; glass is painted opaque.",
+   "sha256": "48a1b0ad39eb21f8a46c397b539e29f69dfd3d790a21c7664b8874566ba2a340",
+   "atlas_rect": [
+    0,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 18,
+   "name": "house_sash_v",
+   "file": "tiles/house_sash_v.png",
+   "category": "house_front",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "House wall with residential window or entry detail; glass is painted opaque.",
+   "sha256": "7b024395e89795b46efd7afb8d343b3063051bc273d439d0c0ad7a8b70499a50",
+   "atlas_rect": [
+    384,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 19,
+   "name": "house_bay_u",
+   "file": "tiles/house_bay_u.png",
+   "category": "house_front",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "House wall with residential window or entry detail; glass is painted opaque.",
+   "sha256": "d78f55b5ebb1102bc55856ebffa2f2266b2a63fc1abb1c2c360f6d9eede72059",
+   "atlas_rect": [
+    768,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 20,
+   "name": "house_bay_v",
+   "file": "tiles/house_bay_v.png",
+   "category": "house_front",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "House wall with residential window or entry detail; glass is painted opaque.",
+   "sha256": "6016567e94e4b3453be2dfec2d559d26ad75f3190a29708b81169bc52f009132",
+   "atlas_rect": [
+    1152,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 21,
+   "name": "house_entry_u",
+   "file": "tiles/house_entry_u.png",
+   "category": "house_front",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "House wall with residential window or entry detail; glass is painted opaque.",
+   "sha256": "a06c5dabf1c711ba5a5c7343d6a6d51151b632c4a901f0bc6f288c5343f9a6e1",
+   "atlas_rect": [
+    1536,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.59
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 22,
+   "name": "house_entry_v",
+   "file": "tiles/house_entry_v.png",
+   "category": "house_front",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "House wall with residential window or entry detail; glass is painted opaque.",
+   "sha256": "f05928ecf501210e5a6c672472671ebfe887d5da343ecfe5e4f234d20ddb61c8",
+   "atlas_rect": [
+    1920,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.59
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 23,
+   "name": "garage_half_left_u",
+   "file": "tiles/garage_half_left_u.png",
+   "category": "garage",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Pair left then right along the named axis for a 3m-wide closed garage front. The center cut shares a raster profile.",
+   "sha256": "c3b3a000b044b882c491c15c794b92eab3247ce3ab2d0d7a77d89bca941ed285",
+   "atlas_rect": [
+    2304,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 24,
+   "name": "garage_half_left_v",
+   "file": "tiles/garage_half_left_v.png",
+   "category": "garage",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Pair left then right along the named axis for a 3m-wide closed garage front. The center cut shares a raster profile.",
+   "sha256": "8b3ae8ed729183686437179fc0ca978c12e67defcfc1b57cd6fdf0d19e6537c8",
+   "atlas_rect": [
+    2688,
+    1024,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 25,
+   "name": "garage_half_right_u",
+   "file": "tiles/garage_half_right_u.png",
+   "category": "garage",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Pair left then right along the named axis for a 3m-wide closed garage front. The center cut shares a raster profile.",
+   "sha256": "8f6cd76846d8f0dd73910cee9d6ca0b870df19acedd15066ecaece3a1f4274db",
+   "atlas_rect": [
+    0,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.59
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 26,
+   "name": "garage_half_right_v",
+   "file": "tiles/garage_half_right_v.png",
+   "category": "garage",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 12,
+   "edge_families": null,
+   "notes": "Pair left then right along the named axis for a 3m-wide closed garage front. The center cut shares a raster profile.",
+   "sha256": "3e15a59c59f10a8695af03376e5a26ab2255d680d581f42551b55d870ed738c4",
+   "atlas_rect": [
+    384,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.58
+   ],
+   "base_z_m": 0.12
+  },
+  {
+   "id": 27,
+   "name": "entry_steps_u",
+   "file": "tiles/entry_steps_u.png",
+   "category": "steps",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Three shallow steps descend from the near z=12 edge to ground across the named axis.",
+   "sha256": "08f899740c26f1d7a51ade844873d564310de9887695082978ed3f4068e0ce76",
+   "atlas_rect": [
+    768,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 28,
+   "name": "entry_steps_v",
+   "file": "tiles/entry_steps_v.png",
+   "category": "steps",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Three shallow steps descend from the near z=12 edge to ground across the named axis.",
+   "sha256": "72c1d0a3615bc3a5b2738f312b018ceb6b0baf7b86ad8b4ea8b7ba0e4852d841",
+   "atlas_rect": [
+    1152,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.13
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 29,
+   "name": "porch_railing_u",
+   "file": "tiles/porch_railing_u.png",
+   "category": "boundary",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-tile boundary segment, ground base z=0; overlay with raised decking as needed.",
+   "sha256": "5f30452e0e82d1f5f899d32aae0d410e0ecb683310954c3cfd60e26161c63616",
+   "atlas_rect": [
+    1536,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.81
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 30,
+   "name": "porch_railing_v",
+   "file": "tiles/porch_railing_v.png",
+   "category": "boundary",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-tile boundary segment, ground base z=0; overlay with raised decking as needed.",
+   "sha256": "abd7ffa1b171c73a281266460010a464e16cfa899d08455ac7fa0d770b485cc2",
+   "atlas_rect": [
+    1920,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.81
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 31,
+   "name": "garden_fence_u",
+   "file": "tiles/garden_fence_u.png",
+   "category": "boundary",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-tile boundary segment, ground base z=0; overlay with raised decking as needed.",
+   "sha256": "5c3806cc94c8f04f8b2706883a1b55e40cfa45f405612276f9a102dba6154d8e",
+   "atlas_rect": [
+    2304,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.99
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 32,
+   "name": "garden_fence_v",
+   "file": "tiles/garden_fence_v.png",
+   "category": "boundary",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-tile boundary segment, ground base z=0; overlay with raised decking as needed.",
+   "sha256": "2908d850deffeac330f07cf5c02a04f8f34ebd6733a45ba5cac508741033a601",
+   "atlas_rect": [
+    2688,
+    1536,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.99
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 33,
+   "name": "garden_gate_u",
+   "file": "tiles/garden_gate_u.png",
+   "category": "boundary",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-tile boundary segment, ground base z=0; overlay with raised decking as needed.",
+   "sha256": "e118c029d5806ab7a9ec49ccdcc206dcf76129e4b1dfb7a69a50b088683bad31",
+   "atlas_rect": [
+    0,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.07
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 34,
+   "name": "garden_gate_v",
+   "file": "tiles/garden_gate_v.png",
+   "category": "boundary",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "One-tile boundary segment, ground base z=0; overlay with raised decking as needed.",
+   "sha256": "957f44025679e3f7eb606d8ffcbad32b3f7bb5d18895e8b21fc61303669a3c42",
+   "atlas_rect": [
+    384,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.07
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 35,
+   "name": "porch_post",
+   "file": "tiles/porch_post.png",
+   "category": "post",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Common-origin vertical trim; place at wall or canopy corners.",
+   "sha256": "17b388ed715a941fd8667045ccc0ae13f54eb5c9f193350c58e98563303a7c09",
+   "atlas_rect": [
+    768,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.21
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 36,
+   "name": "house_corner_trim",
+   "file": "tiles/house_corner_trim.png",
+   "category": "post",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Common-origin vertical trim; place at wall or canopy corners.",
+   "sha256": "b5de08f7187796905898f8383c13aeeda75a31b86f6d78e63aef83a247228810",
+   "atlas_rect": [
+    1152,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    2.69
+   ],
+   "base_z_m": 0.0
+  },
+  {
+   "id": 37,
+   "name": "roof_flat",
+   "file": "tiles/roof_flat.png",
+   "category": "roof",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Base z=268; slopes rise 64px per tile. Rise/fall modules join at their peak.",
+   "sha256": "454bc518b5183db4dad0b176c44e2ef2d590af4e59affca50d14e4895ed58834",
+   "atlas_rect": [
+    1536,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.01
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 38,
+   "name": "roof_rise_u",
+   "file": "tiles/roof_rise_u.png",
+   "category": "roof",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Base z=268; slopes rise 64px per tile. Rise/fall modules join at their peak.",
+   "sha256": "dc2ea56e6ecf1c5d106a7fc0c42b2f01ea564e5ea7916b19b57234dfdb2d5793",
+   "atlas_rect": [
+    1920,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.64
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 39,
+   "name": "roof_fall_u",
+   "file": "tiles/roof_fall_u.png",
+   "category": "roof",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Base z=268; slopes rise 64px per tile. Rise/fall modules join at their peak.",
+   "sha256": "0f99060520e4c2204c9e6c691c348ffdc3676a597ccc02ddc1ed69c6ade7be04",
+   "atlas_rect": [
+    2304,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.64
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 40,
+   "name": "roof_rise_v",
+   "file": "tiles/roof_rise_v.png",
+   "category": "roof",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Base z=268; slopes rise 64px per tile. Rise/fall modules join at their peak.",
+   "sha256": "8aea4f86848692c2b71188a1eea528c1782d22d51656790896b2c3f9652d14dd",
+   "atlas_rect": [
+    2688,
+    2048,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.64
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 41,
+   "name": "roof_fall_v",
+   "file": "tiles/roof_fall_v.png",
+   "category": "roof",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Base z=268; slopes rise 64px per tile. Rise/fall modules join at their peak.",
+   "sha256": "722507b6520b6eb8ba2ebb095dee6e51a826f0461cdaa3aeb44149222dd1ce55",
+   "atlas_rect": [
+    0,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.64
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 42,
+   "name": "gable_rise_u",
+   "file": "tiles/gable_rise_u.png",
+   "category": "gable",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Match the corresponding rise/fall roof at the same origin.",
+   "sha256": "0d2d62d9310fed5eab1ecb31156b57a8323c649e63f7b1fe12251cac0376f6e8",
+   "atlas_rect": [
+    384,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.65
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 43,
+   "name": "gable_fall_u",
+   "file": "tiles/gable_fall_u.png",
+   "category": "gable",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Match the corresponding rise/fall roof at the same origin.",
+   "sha256": "383ab3ae30ae20090f037960fd00f44fcb31a6f46ffe5815827a82e5fcfc3842",
+   "atlas_rect": [
+    768,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.65
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 44,
+   "name": "gable_rise_v",
+   "file": "tiles/gable_rise_v.png",
+   "category": "gable",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Match the corresponding rise/fall roof at the same origin.",
+   "sha256": "dde2d74fcd83d3febb038b6b604142ecd190b877d9f08df11026060035ea9338",
+   "atlas_rect": [
+    1152,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.65
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 45,
+   "name": "gable_fall_v",
+   "file": "tiles/gable_fall_v.png",
+   "category": "gable",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "Match the corresponding rise/fall roof at the same origin.",
+   "sha256": "c6681e7692a0c158daaf0d802e1a6f1f906927f64f96fa14c2db8c3074e60d32",
+   "atlas_rect": [
+    1536,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.65
+   ],
+   "base_z_m": 2.68
+  },
+  {
+   "id": 46,
+   "name": "porch_canopy_u",
+   "file": "tiles/porch_canopy_u.png",
+   "category": "canopy",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "u",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Canopy projects 0.55 tile outward; front edge z=218. Pair with a porch post.",
+   "sha256": "ed602a5d3be4ae300d693f215145cc72834997f513351f9b996e2de8517e3dc7",
+   "atlas_rect": [
+    1920,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.95
+   ],
+   "base_z_m": 2.18,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 47,
+   "name": "porch_canopy_v",
+   "file": "tiles/porch_canopy_v.png",
+   "category": "canopy",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": "v",
+   "elevation_px": 0,
+   "edge_families": null,
+   "notes": "Canopy projects 0.55 tile outward; front edge z=218. Pair with a porch post.",
+   "sha256": "bb705707ea56c04edcabe8c3923cb92429f1f8da1f9bb4e89649550ffed57e8b",
+   "atlas_rect": [
+    2304,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    0.95
+   ],
+   "base_z_m": 2.18,
+   "real_size_basis": "height is the vertical pixel span of the piece, including its projected depth; approximate"
+  },
+  {
+   "id": 48,
+   "name": "house_chimney",
+   "file": "tiles/house_chimney.png",
+   "category": "roof_fixture",
+   "canvas_px": [
+    384,
+    512
+   ],
+   "anchor_px": [
+    192,
+    352
+   ],
+   "grid_footprint": [
+    1,
+    1
+   ],
+   "orientation": null,
+   "elevation_px": 268,
+   "edge_families": null,
+   "notes": "For flat roof base z=268. Slopes require a manual height offset.",
+   "sha256": "b2f1f2857119da1908948e8208c58c9c25a848789d6908a5c585ebf91baf4b4f",
+   "atlas_rect": [
+    2688,
+    2560,
+    384,
+    512
+   ],
+   "scale_factor": "1",
+   "real_size_m": [
+    1.5,
+    1.5,
+    1.15
+   ],
+   "base_z_m": 2.68
+  }
+ ],
+ "real_size_note": "real_size_m = [along u, along v, height] in metres, approximate: cell footprint at 1.5 m per tile edge, height from the tallest pixel column at 100 px per metre (flat planes: visible thickness only). base_z_m = elevation_px / 100.",
+ "tile_set": true,
+ "scale_note": "Already authored at the shared world scale; no resize, no trim. Every piece keeps its 384x512 canvas and anchor (192,352)."
+}
